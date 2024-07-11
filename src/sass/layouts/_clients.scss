@@ -1,0 +1,36 @@
+.clients {
+  .container {
+    display: flex;
+    gap: 80px;
+    padding: 0px 82px 110px 74px;
+    align-items: flex-end;
+  }
+  &-title {
+    color: #18191f;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    width: 600px;
+    margin-bottom: 15px;
+  }
+  &-desk {
+    max-width: 570px;
+    font-size: 18px;
+    color: #18191f;
+    line-height: 32px;
+  }
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 55px;
+    align-items: center;
+    justify-content: center;
+  }
+  &-item {
+    cursor: pointer;
+  }
+  &-icon {
+    width: 148px;
+  }
+}
