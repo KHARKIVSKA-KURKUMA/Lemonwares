@@ -1,0 +1,40 @@
+.footer {
+  background-color: #b00000;
+  color: #e6e6e6;
+  .container {
+    padding: 64px 115px 80px 104px;
+  }
+  &-logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  &-wrap {
+    margin-bottom: 104px;
+    display: flex;
+    gap: 120px;
+  }
+  &-desc {
+    width: 290px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  &-list {
+    display: flex;
+    gap: 120px;
+    margin-top: 16px;
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+  &-headline {
+    margin-bottom: 24px;
+    line-height: 32px;
+  }
+  &-item {
+    line-height: 32px;
+  }
+  &-rights {
+  }
+}
