@@ -1,0 +1,49 @@
+.header {
+  .container {
+    padding-top: 41px;
+    display: flex;
+    padding: 41px 114px 80px 36px;
+  }
+  &-logotype {
+    width: 90px;
+    height: 60px;
+    margin-right: 65px;
+  }
+  &-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-services {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #000000;
+  }
+  &-list {
+    display: flex;
+    gap: 33px;
+  }
+  &-contact-block {
+    display: flex;
+    align-items: center;
+  }
+  &-icon {
+    margin-right: 6px;
+  }
+  .account-link {
+    margin-right: 65px;
+    position: relative;
+    &::after {
+      content: '';
+      width: 1px;
+      position: absolute;
+      background-color: #dad8d8;
+      height: 19px;
+      transform: translateY(-50%);
+      top: 50%;
+      margin-left: 50%;
+    }
+  }
+}
